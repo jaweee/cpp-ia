@@ -3,13 +3,13 @@
 
 // 守卫式声明
 
-class complex
+class Complex
 {
 
 public:
-    complex(){};
-    complex(double r = 0, double i = 0) : re(r), im(i) {}
-    ~complex();
+    Complex(){};
+    Complex(double r = 0, double i = 0) : re(r), im(i) {}
+    ~Complex();
     inline double getReal() const { return re; }
     inline double getImag() const { return im; }
 
@@ -18,11 +18,11 @@ private:
     double re, im;
 };
 
-// complex::complex(/* args */)
+// Complex::Complex(/* args */)
 // {
 // }
 
-complex::~complex()
+Complex::~Complex()
 {
     cout << "这里是析构函数" << endl;
 }
