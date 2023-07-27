@@ -24,7 +24,6 @@ private:
 
 Complex::~Complex()
 {
-    cout << "这里是析构函数" << endl;
 }
 
 #endif

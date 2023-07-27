@@ -12,7 +12,7 @@ public:
     ~String();
 
 private:
-    char *m_data
+    char *m_data;
 };
 
 String::String(const char *m = 0)
