@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    complex c(1, 2);
+    Complex c(1, 2);
     cout << c.getReal() << ", " << c.getImag() << endl;
     return 0;
 }
