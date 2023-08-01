@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     // String s = String();
     // String s = String("hello");
     String s("hello");
